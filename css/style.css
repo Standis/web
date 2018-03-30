@@ -9,7 +9,12 @@ color: bisque;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+aside
+{
+    background-color: rgb(51, 94, 94);
+}
+
 h1
 {
-text-shadow: 2px 2px;    
+text-shadow: 2px 2px 5px rgb(160, 160, 133);    
 }
