@@ -9,25 +9,32 @@ color: bisque;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/*Headers*/
+/*Navbars*/
 
 nav
 {
-    background-color: rgb(51, 94, 94);
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
+background-color: rgb(51, 94, 94);
+margin-left: 10%;
+margin-right: 10%;
+width: 80%;
+
 }
 
 nav > .nav_selected
 {
-    background-color: rgb(90, 138, 138);    
+background-color: rgb(90, 138, 138);    
 }
 
 nav > a
 {
 color: rgb(243, 188, 122);
 text-shadow: 2px 2px 5px rgb(240, 221, 198);
+text-decoration: none;
+}
+
+nav > a:hover
+{
+    size: 20px;
 }
 
 /*Headers*/
@@ -38,6 +45,12 @@ text-shadow: 2px 2px 5px rgb(160, 160, 133);
 }
 
 #main_header
+{
+    margin-left: 10%;
+}
+
+/*Articles*/
+article
 {
     margin-left: 10%;
 }
