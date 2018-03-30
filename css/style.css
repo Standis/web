@@ -9,9 +9,12 @@ color: bisque;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-aside
+nav
 {
     background-color: rgb(51, 94, 94);
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
 }
 
 h1
