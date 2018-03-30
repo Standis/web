@@ -1,0 +1,15 @@
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+}
+
+body
+{
+background-color: darkslategrey;
+color: bisque;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1
+{
+text-shadow: 2px 2px;    
+}
