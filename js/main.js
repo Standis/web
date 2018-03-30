@@ -1,8 +1,7 @@
 /*Include html script*/
 
-<script>
 function includeHTML() {
-  var z, i, elmnt, file, xhttp;
+  var z; i, elmnt, file, xhttp;
   /*loop through a collection of all HTML elements:*/
   z = document.getElementsByTagName("*");
   for (i = 0; i < z.length; i++) {
@@ -27,5 +26,4 @@ function includeHTML() {
       return;
     }
   }
-}
-</script> 
+};
