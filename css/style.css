@@ -34,7 +34,7 @@ text-decoration: none;
 
 nav > a:hover
 {
-    size: 20px;
+    font-size: 20px;
 }
 
 /*Headers*/
