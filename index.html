@@ -12,18 +12,19 @@
 	<![endif]-->	
 </head>
 <body>
+	<header id="mp_title">
+			<h1>Standíkovo web o ničem</h1>
+	</header>
 	<main>
-		<header id="main_header">
-				<h1>Standíkovo web o ničem</h1>
-			</header>
-			<div id="mp_nav">
-				<div w3-include-html="http://standik.cz/web_parts/nav.html"></div>
-			</div>
-			<div id="mp_body">
-				<div w3-include-html="http://standik.cz/aktuality/aktuality.html"></div>
-				<div w3-include-html="http://standik.cz/game.html"></div>
-			</div>
-		</main>
+		<div id="mp_nav">
+			<div w3-include-html="http://standik.cz/web_parts/nav.html"></div>
+		</div>
+		<div id="mp_body">
+			<div w3-include-html="http://standik.cz/aktuality/aktuality.html"></div>
+			<div w3-include-html="http://standik.cz/game.html"></div>
+			<div w3-include-html="http://standik.cz/akordy/akordy.html"></div>
+		</div>
+	</main>
 	<footer>
 		<script>
 			includeHTML();

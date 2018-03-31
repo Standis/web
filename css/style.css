@@ -18,15 +18,18 @@ margin-right: 10%;
 width: 80%;
 }
 
+button
+{
+    background: transparent;
+    color: bisque;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
 /*Navbars*/
 
-nav
-{
-background-color: rgb(51, 94, 94);
-padding: 1px;
-border-radius: 10px;
-margin-bottom: 20px;
-}
+
 
 /*Headers*/
 

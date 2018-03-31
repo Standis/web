@@ -46,6 +46,6 @@ function nav_switch_game() {
 
 /*Zmena obsahu na akordy stranku*/
 function nav_switch_akordy() {
-  document.getElementById("mp_body").innerHTML = game;
+  document.getElementById("mp_body").innerHTML = akordy;
   includeHTML();
 };
