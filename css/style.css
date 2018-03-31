@@ -1,3 +1,5 @@
+/*general*/
+
 header, section, footer, aside, nav, main, article, figure {
     display: block;
 }
@@ -9,7 +11,7 @@ color: bisque;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-main
+main, header
 {
 margin-left: 10%;
 margin-right: 10%;
@@ -31,4 +33,12 @@ z-index: -10;
 h1
 {
 text-shadow: 2px 2px 5px rgb(160, 160, 133);
+}
+
+/*Main*/
+#mp_body > div
+{
+    background-color: rgb(81, 121, 121);
+    border: 2px white;
+    margin-bottom: 20px;
 }
