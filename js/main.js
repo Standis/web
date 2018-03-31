@@ -35,12 +35,15 @@ function includeHTML() {
 /*Zmena obsahu na hlavni stranku*/
 function nav_switch_main() {
   document.getElementById("mp_body").innerHTML = aktuality + game + akordy;
+  document.getElementById("nav_main").classList.add("nav_selected");
+  document.getElementById("nav_aktuality").classList.remove("nav_selected");
   includeHTML();
 };
 
 /*Zmena obsahu na stranku aktualit*/
 function nav_switch_aktuality() {
   document.getElementById("mp_body").innerHTML = aktuality;
+  document.getElementById("nav_main").classList.remove("nav_selected");
   document.getElementById("nav_aktuality").classList.add("nav_selected");
   includeHTML();
 };
