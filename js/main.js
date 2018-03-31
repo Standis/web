@@ -1,5 +1,10 @@
-/*Include html script*/
 
+var game, aktuality, akordy;
+game = '<div w3-include-html="http://standik.cz/game.html"></div>';
+aktuality = '<div w3-include-html="http://standik.cz/aktuality/aktuality.html"></div>';
+akordy = '<div w3-include-html="http://standik.cz/akordy/akordy.html"></div>';
+
+/*Include html script*/
 function includeHTML() {
   var z, i, elmnt, file, xhttp;
   /*loop through a collection of all HTML elements:*/
@@ -27,16 +32,20 @@ function includeHTML() {
     }
   }
 };
-
-var game, aktuality;
-game = '<div w3-include-html="http://standik.cz/game.html"></div>';
-aktuality = '<div w3-include-html="http://standik.cz/aktuality/aktuality.html"></div>';
-
+/*Zmena obsahu na hlavni stranku*/
 function nav_switch_main() {
   document.getElementById("mp_body").innerHTML = aktuality + game;
   includeHTML();
 };
 
+/*Zmena obsahu na herni stranku*/
 function nav_switch_game() {
   document.getElementById("mp_body").innerHTML = game;
+  includeHTML();
+};
+
+/*Zmena obsahu na akordy stranku*/
+function nav_switch_akordy() {
+  document.getElementById("mp_body").innerHTML = game;
+  includeHTML();
 };
