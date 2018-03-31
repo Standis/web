@@ -32,18 +32,26 @@ function includeHTML() {
     }
   }
 };
+/*Vymazani class v menu*/
+function nav_clear() {
+  document.getElementById("nav_main").classList.remove("nav_selected");
+  document.getElementById("nav_aktuality").classList.remove("nav_selected");
+  document.getElementById("nav_game").classList.remove("nav_selected");
+  document.getElementById("nav_akordy").classList.remove("nav_selected");
+};
+
 /*Zmena obsahu na hlavni stranku*/
 function nav_switch_main() {
   document.getElementById("mp_body").innerHTML = aktuality + game + akordy;
+  nav_clear();
   document.getElementById("nav_main").classList.add("nav_selected");
-  document.getElementById("nav_aktuality").classList.remove("nav_selected");
   includeHTML();
 };
 
 /*Zmena obsahu na stranku aktualit*/
 function nav_switch_aktuality() {
   document.getElementById("mp_body").innerHTML = aktuality;
-  document.getElementById("nav_main").classList.remove("nav_selected");
+  nav_clear();
   document.getElementById("nav_aktuality").classList.add("nav_selected");
   includeHTML();
 };
@@ -51,11 +59,15 @@ function nav_switch_aktuality() {
 /*Zmena obsahu na herni stranku*/
 function nav_switch_game() {
   document.getElementById("mp_body").innerHTML = game;
+  nav_clear();
+  document.getElementById("nav_game").classList.add("nav_selected");
   includeHTML();
 };
 
 /*Zmena obsahu na akordy stranku*/
 function nav_switch_akordy() {
   document.getElementById("mp_body").innerHTML = akordy;
+  nav_clear();
+  document.getElementById("nav_akordy").classList.add("nav_selected");
   includeHTML();
 };
