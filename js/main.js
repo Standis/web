@@ -60,6 +60,7 @@ function nav_switch_akordy() {
 
 $(document).ready(function () {
   $('nav button').on('click', function(){
+    alert('test');
     $('button.nav_selected').removeClass('nav_selected');
     $(this).addClass('nav_selected')
   });
