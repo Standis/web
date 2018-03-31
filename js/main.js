@@ -28,11 +28,10 @@ function includeHTML() {
   }
 };
 
-var game, aktuality;
+function nav_switch_main() {
+  var game, aktuality;
   game = '<div w3-include-html="http://standik.cz/game.html"></div>';
   aktuality = '<div w3-include-html="http://standik.cz/aktuality/aktuality.html"></div>';
-
-function nav_switch_main() {
   alert(game);
 /*document.getElementById("mp_body").innerHTML = aktuality + game;*/
 };
