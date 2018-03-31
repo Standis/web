@@ -45,6 +45,7 @@ text-shadow: 2px 2px 5px rgb(160, 160, 133);
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
+    border: solid;
 }
 
 #mp_body > div > div
