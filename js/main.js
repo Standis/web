@@ -33,9 +33,10 @@ var game, aktuality;
   aktuality = '<div w3-include-html="http://standik.cz/aktuality/aktuality.html"></div>';
 
 function nav_switch_main() {
-  document.getElementById("mp_body").innerHTML = aktuality + game;
+  alert(game);
+/*document.getElementById("mp_body").innerHTML = aktuality + game;*/
 };
 
-function nav_switch_game() {
+/*function nav_switch_game() {
   document.getElementById("mp_body").innerHTML = game;
-};
+};*/
