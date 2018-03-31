@@ -59,7 +59,7 @@ function nav_switch_akordy() {
 /*Zmena selected*/
 
 $(document).ready(function () {
-  $('nav button').on('click', function(){
+  $('button').on('click', function(){
     alert('test');
     $('button.nav_selected').removeClass('nav_selected');
     $(this).addClass('nav_selected')
