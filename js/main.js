@@ -34,6 +34,7 @@ var game, aktuality;
 
 function nav_switch_main() {
 document.getElementById("mp_body").innerHTML = aktuality + game;
+alert = aktuality + game;
 };
 
 function nav_switch_game() {
