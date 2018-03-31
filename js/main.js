@@ -28,14 +28,14 @@ function includeHTML() {
   }
 };
 
-function nav_switch_main() {
-  var game, aktuality;
+var game, aktuality;
   game = '<div w3-include-html="http://standik.cz/game.html"></div>';
   aktuality = '<div w3-include-html="http://standik.cz/aktuality/aktuality.html"></div>';
-  alert(game);
-/*document.getElementById("mp_body").innerHTML = aktuality + game;*/
+
+function nav_switch_main() {
+document.getElementById("mp_body").innerHTML = aktuality + game;
 };
 
-/*function nav_switch_game() {
+function nav_switch_game() {
   document.getElementById("mp_body").innerHTML = game;
-};*/
+};
