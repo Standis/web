@@ -39,6 +39,11 @@ text-shadow: 2px 2px 5px rgb(160, 160, 133);
 #mp_body > div
 {
     background-color: rgb(81, 121, 121);
-    border: 2px white;
     margin-bottom: 20px;
+    padding: 5px;
+}
+
+#mp_body > div > div
+{
+border: 6px white;
 }
