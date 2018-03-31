@@ -41,6 +41,7 @@ function nav_switch_main() {
 /*Zmena obsahu na stranku aktualit*/
 function nav_switch_aktuality() {
   document.getElementById("mp_body").innerHTML = aktuality;
+  document.getElementById("nav_aktuality").classList.add("nav_selected");
   includeHTML();
 };
 
@@ -55,14 +56,3 @@ function nav_switch_akordy() {
   document.getElementById("mp_body").innerHTML = akordy;
   includeHTML();
 };
-
-/*Zmena selected*/
-
-$(document).ready(function () {
-  $('button').on('click', function(){
-    alert('test');
-    $('button.nav_selected').removeClass('nav_selected');
-    $(this).addClass('nav_selected')
-  });
-});
-
