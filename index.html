@@ -23,6 +23,12 @@
   <!-- Theme CSS - Includes Bootstrap -->
   <link href="css/creative.css" rel="stylesheet">
 
+  <!-- Custom CSS -->
+  <link href="css/custom.css" rel="stylesheet">
+
+  <!-- mapy.cz -->
+  <script src="https://api.mapy.cz/loader.js"></script>
+  <script>Loader.load()</script>
 </head>
 
 <body id="page-top">
@@ -40,13 +46,13 @@
             <a class="nav-link js-scroll-trigger" href="#about">Základní informace</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Ubytování</a>
+            <a class="nav-link js-scroll-trigger" href="#harmonogram">Harmonogram</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio">Foto koutek</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Mapa</a>
+            <a class="nav-link js-scroll-trigger" href="#map">Mapa</a>
           </li>
         </ul>
       </div>
@@ -76,164 +82,199 @@
         <div class="col-lg-8 text-center">
           <h2 class="text-white mt-0">Základní informace</h2>
           <hr class="divider light my-4">
-          <p class="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
-          <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+          <p class="text-white-50 mb-4">Kdy: V sobotu, 20. června 2020</p>
+          <p class="text-white-50 mb-4">Kde: Uhrovic mlýn</p>
+          <a class="btn btn-light btn-xl js-scroll-trigger" href="#harmonogram">Harmonogram akce</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Services Section -->
-  <section class="page-section" id="services">
+  <!-- harmonogram Section -->
+  <section class="page-section" id="harmonogram">
     <div class="container">
-      <h2 class="text-center mt-0">At Your Service</h2>
+      <h2 class="text-center mt-0">Harmonogram svatby</h2>
       <hr class="divider my-4">
       <div class="row">
-        <div class="col-lg-3 col-md-6 text-center">
+        <div class="text-center">
           <div class="mt-5">
-            <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Sturdy Themes</h3>
-            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+            <i class="fas fa-4x fa-bell text-primary mb-4"></i>
+            <h3 class="h4 mb-2">8:00</h3>
+            <p class="text-muted mb-0">Budíček nevěsty</p>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Up to Date</h3>
-            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Ready to Publish</h3>
-            <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-heart text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Made with Love</h3>
-            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Portfolio Section -->
-  <section id="portfolio">
-    <div class="container-fluid p-0">
-      <div class="row no-gutters">
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-            <div class="portfolio-box-caption p-3">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Call to Action Section -->
-  <section class="page-section bg-dark text-white">
-    <div class="container text-center">
-      <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-      <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section class="page-section" id="contact">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="mt-0">Let's Get In Touch!</h2>
-          <hr class="divider my-4">
-          <p class="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-          <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-          <div>+1 (202) 555-0149</div>
+        <div class="text-center">
+          <div class="mt-5">
+            <i class="far fa-4x fa-bell text-primary mb-4"></i>
+            <h3 class="h4 mb-2">11:00</h3>
+            <p class="text-muted mb-0">Budíček ženicha</p>
+          </div>
         </div>
-        <div class="col-lg-4 mr-auto text-center">
-          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-          <!-- Make sure to change the email address in anchor text AND the link below! -->
-          <a class="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
+      </div>
+      <div class="row">
+        <div class="text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-users text-primary mb-4"></i>
+            <h3 class="h4 mb-2">12:00</h3>
+            <p class="text-muted mb-0">Nevěsta a svatebčané čekají na ženicha</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-cocktail text-primary mb-4"></i>
+            <h3 class="h4 mb-2">12:30</h3>
+            <p class="text-muted mb-0">Ženich dorazil, dal si panáka, hledá se nevěsta svatební hosté</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-church text-primary mb-4"></i>
+            <h3 class="h4 mb-2">13:00</h3>
+            <p class="text-muted mb-0">Obřad</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-gem text-primary mb-4"></i>
+            <h3 class="h4 mb-2">13:30</h3>
+            <p class="text-muted mb-0">Nevěsta už není Sztankoová, ale Teplíková, ženich září štěstím</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="text-center">
+          <div class="mt-5">
+            <i class="far fa-4x fa-images text-primary mb-4"></i>
+            <h3 class="h4 mb-2">13:31</h3>
+            <p class="text-muted mb-0">Společné focení</p>
+          </div>
+        </div>
+      </div>      
+      <div class="row">
+        <div class="text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-glass-cheers text-primary mb-4"></i>
+            <h3 class="h4 mb-2">14:00</h3>
+            <p class="text-muted mb-0">Přípitek, svatební hostina</p>
+          </div>
+        </div>
+      </div>      
+      <div class="row">
+        <div class="text-center">
+          <div class="mt-5">
+            <i class="far fa-4x fa-image text-primary mb-4"></i>
+            <h3 class="h4 mb-2">15:00</h3>
+            <p class="text-muted mb-0">Focení novomanželů</p>
+          </div>
+        </div>
+      </div>      
+      <div class="row">
+        <div class="text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-coffee text-primary mb-4"></i>
+            <h3 class="h4 mb-2">16:00</h3>
+            <p class="text-muted mb-0">Krájení dortu, káva</p>
+          </div>
+        </div>
+      </div>      
+      <div class="row">
+        <div class="text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-dice text-primary mb-4"></i>
+            <h3 class="h4 mb-2">16:30</h3>
+            <p class="text-muted mb-0">Zábava, hry...</p>
+          </div>
+        </div>
+      </div>      
+      <div class="row">
+        <div class="text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-seedling text-primary mb-4"></i>
+            <h3 class="h4 mb-2">18:00</h3>
+            <p class="text-muted mb-0">Házení kytice</p>
+          </div>
+        </div>
+      </div>      
+      <div class="row">
+        <div class="text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-drumstick-bite text-primary mb-4"></i>
+            <h3 class="h4 mb-2">18:30</h3>
+            <p class="text-muted mb-0">Raut, grilování</p>
+          </div>
+        </div>
+      </div>      
+      <div class="row">
+        <div class="text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-male text-primary mb-4"></i>
+            <i class="fas fa-4x fa-female text-primary mb-4"></i>
+            <h3 class="h4 mb-2">19:00</h3>
+            <p class="text-muted mb-0">Tanec novomaželů</p>
+          </div>
+        </div>
+      </div>      
+      <div class="row">
+        <div class="text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-guitar text-primary mb-4"></i>
+            <h3 class="h4 mb-2">19:05</h3>
+            <p class="text-muted mb-0">Volná zábava</p>
+          </div>
+        </div>
+      </div>      
+  </section>
+
+  <!-- Fotokoutek Section -->
+  <section id="portfolio">
+    <div class="container text-center">
+      <h2 class="mb-4">Fotokoutek</h2>
+      <hr class="divider my-4">
+      <div class="row no-gutters">
+        <p class="text-muted mb-5">Budete mít k dispozici fotokoutek s tiskárničkou fotek. Aby jste se však nezdržovali instalací při focení mám pro Vás návod na používání již nyní.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section id="map">
+    <div class="container text-center">
+      <h2 class="mt-0">Kam vlastně jedete?</h2>
+      <hr class="divider my-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <!--Seznam map-->  
+            <div id="mapa" style="width:600px; height:400px;"></div>
+            <script type="text/javascript">
+              var stred = SMap.Coords.fromWGS84(13.6184941, 49.9934585);
+              var mapa = new SMap(JAK.gel("mapa"), stred, 13);
+              mapa.addDefaultLayer(SMap.DEF_BASE).enable();
+              mapa.addDefaultControls();    
+              var layer = new SMap.Layer.Marker();
+              mapa.addLayer(layer);
+              layer.enable();
+
+              var card = new SMap.Card();
+              card.getHeader().innerHTML = "<strong>Uhrovic mlýn</strong>";
+              card.getBody().innerHTML = "Milíčov 1, Šípy";
+
+              var options = { 
+                  title: "Sem se musíte dostat :)" 
+                  }; 
+                  var marker = new SMap.Marker(stred, "myMarker", options);
+                  marker.decorate(SMap.Marker.Feature.Card, card);
+                  layer.addMarker(marker);          
+            </script>
+
+          <!--Seznam Maps-->
         </div>
       </div>
     </div>
@@ -242,7 +283,7 @@
   <!-- Footer -->
   <footer class="bg-light py-5">
     <div class="container">
-      <div class="small text-center text-muted">Copyright &copy; 2019 - Start Bootstrap</div>
+      <div class="small text-center text-muted">Teplíci 2020</div>
     </div>
   </footer>
 
