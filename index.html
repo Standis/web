@@ -43,7 +43,10 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">Základní informace</a>
+            <a class="nav-link js-scroll-trigger" href="#informace">Základní informace</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#ubytovani">Ubytování</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#harmonogram">Harmonogram</a>
@@ -69,22 +72,40 @@
         </div>
         <div class="col-lg-8 align-self-baseline">
           <p class="text-white-75 font-weight-light mb-5">Máme tady pro Vás užitečné informace k naší svatbě.</p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Základní informace</a>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#informace">Základní informace</a>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- About Section -->
-  <section class="page-section bg-primary" id="about">
+  <!-- informace Section -->
+  <section class="page-section bg-primary" id="informace">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
+      <div class="row-flex justify-content-center">
+        <div class="col-lg-8 text-left">
           <h2 class="text-white mt-0">Základní informace</h2>
           <hr class="divider light my-4">
           <p class="text-white-50 mb-4">Kdy: V sobotu, 20. června 2020</p>
           <p class="text-white-50 mb-4">Kde: Uhrovic mlýn</p>
-          <a class="btn btn-light btn-xl js-scroll-trigger" href="#harmonogram">Harmonogram akce</a>
+          <p class="text-white-50 mb-4">Důležité: V areálu jsou přítomni psi, nechte proto své mazlíčky doma, případně jim sežeňte hlídání</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- informace Section -->
+  <section class="page-section" id="ubytovani">
+    <div class="container">
+      <div class="row-flex justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="text-center mt-0">Ubytování</h2>
+          <hr class="divider my-4">
+          <p class="text-center">
+            Ubytování pro rodiny svatebčanů a svědků je řešeno individuálně.
+          </p>
+          <p class="text-center">
+            Ubytování pro svatební hosty je řešeno formou stanů. Hned vedle mlýna je rovný plácek, kde si můžete během dne své stany postavit. Pokud se Vám stanovat nechce nebo nemůžete, budete si muset domluvit ubytování v některé z přilehlých obcí.
+          </p>
         </div>
       </div>
     </div>
@@ -239,7 +260,7 @@
       <h2 class="mb-4">Fotokoutek</h2>
       <hr class="divider my-4">
       <div class="row no-gutters">
-        <p class="text-muted mb-5">Budete mít k dispozici fotokoutek s tiskárničkou fotek. Aby jste se však nezdržovali instalací při focení mám pro Vás návod na používání již nyní.</p>
+        <p class="text-muted mb-5">Budete mít k dispozici fotokoutek s tiskárničkou fotek. Aby jste se však nezdržovali instalací při focení máme pro Vás návod na používání již nyní.</p>
       </div>
     </div>
   </section>
@@ -252,7 +273,7 @@
       <div class="row-flex">
         <div class="col-lg-8 text-center">
           <!--Seznam map-->  
-            <div id="mapa" style="width:80%; height:400px;"></div>
+            <div class="my-4" id="mapa" style="width:80%; height:400px;"></div>
             <script type="text/javascript">
               var stred = SMap.Coords.fromWGS84(13.6184941, 49.9934585);
               var mapa = new SMap(JAK.gel("mapa"), stred, 13);
@@ -277,7 +298,8 @@
           <!--Seznam Maps-->
         </div>
         <div class="col-lg-4">
-          <img class="card-img" src="https://scontent-prg1-1.xx.fbcdn.net/v/t1.0-9/78499143_2320370258074587_8021104888480006144_o.jpg?_nc_cat=110&_nc_sid=dd9801&_nc_ohc=tYfnvojzlcsAX81dMx1&_nc_ht=scontent-prg1-1.xx&oh=21c709793cb244560a92e41a2c406e9f&oe=5E935106">
+          <img class="card-img my-4" src="https://scontent-prg1-1.xx.fbcdn.net/v/t1.0-9/78499143_2320370258074587_8021104888480006144_o.jpg?_nc_cat=110&_nc_sid=dd9801&_nc_ohc=tYfnvojzlcsAX81dMx1&_nc_ht=scontent-prg1-1.xx&oh=21c709793cb244560a92e41a2c406e9f&oe=5E935106">
+          <p class="text-left">Pro naší svatbu jsme zvolili krásný mlýn na Rakovnicku. Je zde místo pro parkování i stanování.</p>
         </div>
       </div>
     </div>
