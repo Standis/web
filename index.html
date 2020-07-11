@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 
 <head>
 
@@ -22,13 +22,6 @@
 
   <!-- Theme CSS - Includes Bootstrap -->
   <link href="css/creative.css" rel="stylesheet">
-
-  <!-- Custom CSS -->
-  <link href="css/custom.css" rel="stylesheet">
-
-  <!-- mapy.cz -->
-  <script src="https://api.mapy.cz/loader.js"></script>
-  <script>Loader.load()</script>
 </head>
 
 <body id="page-top">
@@ -43,19 +36,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#informace">Základní informace</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#ubytovani">Ubytování</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#harmonogram">Harmonogram</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Foto koutek</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#map">Mapa</a>
+            <a class="nav-link js-scroll-trigger" href="#galerie">Galerie</a>
           </li>
         </ul>
       </div>
@@ -67,272 +48,48 @@
     <div class="container h-100">
       <div class="row-flex h-100 align-items-center justify-content-center text-center">
         <div class="col-lg-10 align-self-end">
-          <h1 class="text-uppercase text-white font-weight-bold">Budeme se brát!</h1>
+          <h1 class="text-uppercase text-white font-weight-bold">Tak už jsme se vzali!</h1>
           <hr class="divider my-4">
         </div>
         <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5">Máme tady pro Vás užitečné informace k naší svatbě.</p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#informace">Základní informace</a>
+          <p class="text-white-75 font-weight-light mb-5">Máme tady pro Vás nějaké vzpomínky na naší svatbu.</p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#galerie">Galerie</a>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- informace Section -->
-  <section class="page-section bg-primary" id="informace">
+  <!-- Galerie -->
+  <section class="page-section" id="galerie">
     <div class="container">
-      <div class="row-flex justify-content-center">
-        <div class="col-lg-8 text-left">
-          <h2 class="text-white text-center mt-0">Základní informace</h2>
-          <hr class="divider light my-4">
-          <p class="text-white-50 mb-4">Kdy: V sobotu, 20. června 2020. Můžete přijíždět, jak uznáte za vhodné. Obřad je ve 13:00.</p>
-          <p class="text-white-50 mb-4">Kde: Uhrovic mlýn</p>
-          <p class="text-white-50 mb-4">Oblečení: Svatba je v přírodích barvách, nevyžadujeme dress code, hlavně ať se cítíte pohodlně. Svatba bude venku, tak na to berte zřetel. Budeli nám přát počasí, tak se venku odehraje i hodování. Jinak pro nás budou připraveny prostory mlýnice.</p>
-          <p class="text-white-50 mb-4">Důležité: V areálu jsou přítomni psi, nechte proto své mazlíčky doma, případně jim sežeňte hlídání.</p>
-          <p class="text-white-50 mb-4">Důležité: Během obřadu na sobě budete muset mít stále roušky, a to i přes to, že se obřad bude odehrávat venku. Dále odpadá povinné gratulovací kolečko, místo něj Vás poprosíme o shromáždení se na hromadné focení.</p>
-          <p class="text-white-50 mb-5">Důležité: V areálu je slabý až žádný signál. Berte to prosím na vědomí.</p>
-          <p class="text-white-50 text-center font-italic mb-4">"Vezměte toto oznámení jako malou radu,<br> že svatba není o trápení, co dát ke<br> svatebímu daru. <br> Pokud něčím přispějete, budeme za to rádi,<br> mnohem důležitější však pro nás bude,<br> že strávíte tento den s námi."</p>
-        </div>
+        <!-- Galerie cast 1 -->
+      <div class="row-flex" id="gallery" data-toggle="modal" data-target="#nahled">
+ <div w3-include-html="./galerie1.html"></div> 
       </div>
-    </div>
-  </section>
-
-  <!-- informace Section -->
-  <section class="page-section" id="ubytovani">
-    <div class="container">
-      <div class="row-flex justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="text-center mt-0">Ubytování</h2>
-          <hr class="divider my-4">
-          <p class="text-center">
-            Nakonec se nám podařilo zajistit dostatek míst k přespání ve vnitřních prostorách mlýna, počítejte však s tím, že budete sdílet místnost i s jinými svatebními hosty. Pokud preferujete soukromí, tak stále platí možnost stanování.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- harmonogram Section -->
-  <section class="page-section" id="harmonogram">
-    <div class="container">
-      <h2 class="text-center mt-0">Harmonogram svatby</h2>
-      <hr class="divider my-4">
-      <div class="row">
-        <div class="text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-bell text-primary mb-4"></i>
-            <h3 class="h4 mb-2">8:00</h3>
-            <p class="text-muted mb-0">Budíček nevěsty</p>
+      <!-- Galerie cast 2 -->
+      <div class="modal fade" id="nahled" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-full" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div id="detail" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+<div w3-include-html="./slider.html"></div>
+                </ol>
+                <div class="carousel-inner">
+<div w3-include-html="./carousel.html"></div>                  
+                </div>
+                <!-- Tlačítka -->
+                <a class="carousel-control-prev" href="#detail" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Předchozí</span>
+                </a>
+                <a class="carousel-control-next" href="#detail" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Další</span>
+                </a>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="text-center">
-          <div class="mt-5">
-            <i class="far fa-4x fa-bell text-primary mb-4"></i>
-            <h3 class="h4 mb-2">11:00</h3>
-            <p class="text-muted mb-0">Budíček ženicha</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-users text-primary mb-4"></i>
-            <h3 class="h4 mb-2">12:00</h3>
-            <p class="text-muted mb-0">Nevěsta a svatebčané čekají na ženicha</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-cocktail text-primary mb-4"></i>
-            <h3 class="h4 mb-2">12:30</h3>
-            <p class="text-muted mb-0">Ženich dorazil, dal si panáka, hledá se nevěsta svatební hosté</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-church text-primary mb-4"></i>
-            <h3 class="h4 mb-2">13:00</h3>
-            <p class="text-muted mb-0">Obřad</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-            <h3 class="h4 mb-2">13:30</h3>
-            <p class="text-muted mb-0">Nevěsta už není Sztankoová, ale Teplíková, ženich září štěstím</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="text-center">
-          <div class="mt-5">
-            <i class="far fa-4x fa-images text-primary mb-4"></i>
-            <h3 class="h4 mb-2">13:31</h3>
-            <p class="text-muted mb-0">Společné focení</p>
-          </div>
-        </div>
-      </div>      
-      <div class="row">
-        <div class="text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-glass-cheers text-primary mb-4"></i>
-            <h3 class="h4 mb-2">14:00</h3>
-            <p class="text-muted mb-0">Přípitek, svatební hostina</p>
-          </div>
-        </div>
-      </div>      
-      <div class="row">
-        <div class="text-center">
-          <div class="mt-5">
-            <i class="far fa-4x fa-image text-primary mb-4"></i>
-            <h3 class="h4 mb-2">15:00</h3>
-            <p class="text-muted mb-0">Focení novomanželů</p>
-          </div>
-        </div>
-      </div>      
-      <div class="row">
-        <div class="text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-coffee text-primary mb-4"></i>
-            <h3 class="h4 mb-2">16:00</h3>
-            <p class="text-muted mb-0">Krájení dortu, káva</p>
-          </div>
-        </div>
-      </div>      
-      <div class="row">
-        <div class="text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-dice text-primary mb-4"></i>
-            <h3 class="h4 mb-2">16:30</h3>
-            <p class="text-muted mb-0">Zábava, hry...</p>
-          </div>
-        </div>
-      </div>      
-      <div class="row">
-        <div class="text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-seedling text-primary mb-4"></i>
-            <h3 class="h4 mb-2">18:00</h3>
-            <p class="text-muted mb-0">Házení kytice</p>
-          </div>
-        </div>
-      </div>      
-      <div class="row">
-        <div class="text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-drumstick-bite text-primary mb-4"></i>
-            <h3 class="h4 mb-2">18:30</h3>
-            <p class="text-muted mb-0">Raut, grilování</p>
-          </div>
-        </div>
-      </div>      
-      <div class="row">
-        <div class="text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-male text-primary mb-4"></i>
-            <i class="fas fa-4x fa-female text-primary mb-4"></i>
-            <h3 class="h4 mb-2">19:00</h3>
-            <p class="text-muted mb-0">Tanec novomaželů</p>
-          </div>
-        </div>
-      </div>      
-      <div class="row">
-        <div class="text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-guitar text-primary mb-4"></i>
-            <h3 class="h4 mb-2">19:05</h3>
-            <p class="text-muted mb-0">Volná zábava</p>
-          </div>
-        </div>
-      </div>      
-  </section>
-
-  <!-- Fotokoutek Section -->
-  <section id="portfolio">
-    <div class="container text-center">
-      <h2 class="mb-4">Fotokoutek</h2>
-      <hr class="divider my-4">
-      <div class="row no-gutters">
-        <p class="text-muted mb-5">Budete mít k dispozici fotokoutek s tiskárničkou fotek a fotoknihou, ve které nám můžete zanechat vzpomínku na tento významný den. Aby jste se však nezdržovali instalací při focení máme pro Vás návod na používání již nyní. </p>
-      </div>
-      <div class="row-flex">
-        <div class="container text-center">
-          <p class="text-muted mb-4"> Vaším prvním bojovým úkolem bude stažení aplikace Canon PRINT Inkjet/SELPHY. Pokud možno, tak si aplikaci stáhněte již doma neboť internetové připojení na místě nemůžeme zaručit.</p>
-          <img class="card-img w-25 mb-5" src="img/selphy1.png">
-        </div>
-        <div class="container text-center">
-          <p class="text-muted mb-4">Až budete na místě a budete si chtít vytisknout nějakou svoji svatební momentku, tak se jako první přihlaste na WiFi hotspot se jménem: CP1300-B65846. Hotspot je bez hesla. Nyní jste připojeni k tiskárničce a můžete začít používat aplikaci, kterou jste si stáhli.</p>
-          <img class="card-img w-25 mb-5" src="img/selphy2.png">
-        </div>
-        <div class="container text-center">
-          <p class="text-muted mb-4">Po odsouhlasení licenčních podmínek, a povolení přístupu k uložišti v telefonu Vám vyskočí dotaz na vyhledání dostupných tiskáren. Nyní by se tiskárna měla připojit a odemknout Vám možnosti tisku forografií, které jste pořídili svým telefonem.</p>
-          <img class="card-img w-25 mb-5" src="img/selphy3.png">
-          <img class="card-img w-25 mb-5" src="img/selphy4.png">
-        </div>
-        <div class="container text-center">
-          <p class="text-muted mb-5">Chtěl bych Vás pouze upozornit, aby jste se fotografií během tisku nedotýkali a počkali až bude celý proces tisku dokončen.</p>
-        </div>
-      </div>
-    </div>S
-  </section>
-
-  <!-- Map Section -->
-  <section id="map">
-    <div class="container text-center my-4">
-      <h2 class="mt-0">Kam vlastně jedete?</h2>
-      <hr class="divider my-4">
-      <div class="row-flex">
-        <p><span class="text-primary">DŮLEŽITÉ:</span>
-            V těchto dnech probíhají opravy mostu u Uhrovic mlýna. Směrem od Slatiny se tam nedostanete a Google navigace Vás zavede někam do polí, jak jsme zjistily :) . Pokud používáte navigaci držte se trasy: <span class="text-primary">Čistá - Šípy - Milíčov</span>. Za Milíčovem je cesta až k Mlýnu normálně průjezdná.
-        </p> 
-      </div>
-      <div class="row-flex">
-        <div class="col-lg-8 text-center">
-          <!--Seznam map-->  
-            <div class="my-4" id="mapa" style="width:80%; height:400px;"></div>
-            <script type="text/javascript">
-              var stred = SMap.Coords.fromWGS84(13.6184941, 49.9934585);
-              var mapa = new SMap(JAK.gel("mapa"), stred, 13);
-              mapa.addDefaultLayer(SMap.DEF_BASE).enable();
-              mapa.addDefaultControls();    
-              var layer = new SMap.Layer.Marker();
-              mapa.addLayer(layer);
-              layer.enable();
-
-              var card = new SMap.Card();
-              card.getHeader().innerHTML = "<strong>Uhrovic mlýn</strong>";
-              card.getBody().innerHTML = "Milíčov 1, Šípy";
-
-              var options = { 
-                  title: "Sem se musíte dostat :)" 
-                  }; 
-                  var marker = new SMap.Marker(stred, "myMarker", options);
-                  marker.decorate(SMap.Marker.Feature.Card, card);
-                  layer.addMarker(marker);          
-            </script>
-
-          <!--Seznam Maps-->
-        </div>
-        <div class="col-lg-4">
-          <img class="card-img my-4" src="img/uhrovicmlyn.jpg">
-          <p class="text-left">Pro naší svatbu jsme zvolili krásný mlýn na Rakovnicku. Je zde místo pro parkování i stanování.</p>
-          <p class="text-left">Pro více informací navštivte přímo stránky mlýnu.</p>
-          <p class="text-left">
-            <a href="https://www.facebook.com/uhrovicmlyn" target="_blank">
-              <i class="fab fa-2x fa-facebook"></i>
-            </a>
-            <a href="https://www.uhrovicmlyn.com/" target="_blank">
-              <i class="fab fa-2x fa-chrome"></i>
-            </a>
-          </p>
         </div>
       </div>
     </div>
@@ -353,8 +110,38 @@
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
   <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-  <!-- Custom scripts for this template -->
+  <!-- Custom scripts -->
   <script src="js/creative.min.js"></script>
+  <script>
+  function includeHTML() {
+    var z, i, elmnt, file, xhttp;
+    /* Loop through a collection of all HTML elements: */
+    z = document.getElementsByTagName("*");
+    for (i = 0; i < z.length; i++) {
+      elmnt = z[i];
+      /*search for elements with a certain atrribute:*/
+      file = elmnt.getAttribute("w3-include-html");
+      if (file) {
+        /* Make an HTTP request using the attribute value as the file name: */
+        xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4) {
+            if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+            if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+            /* Remove the attribute, and call this function once more: */
+            elmnt.removeAttribute("w3-include-html");
+            includeHTML();
+          }
+        }
+        xhttp.open("GET", file, true);
+        xhttp.send();
+        /* Exit the function: */
+        return;
+      }
+    }
+  }
+</script> 
+  <script>includeHTML();</script> 
 
 </body>
 
